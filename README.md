@@ -40,7 +40,19 @@ The goal of the project was to develop an application that can quickly predict t
 - Handles features like area, bedrooms, bathrooms, luxury score, etc.
 - Converts prices from INR to USD for international users
 ## Run Locally
-(instruction)
+### **1. Clone the Repository**
+```bash
+git clone https://github.com/PavelVitAnt/House-Price-Predictor.git
+cd House-Price-Predictor
+```
+### **2. Install Dependencies**
+```bash
+pip install -r requirements.txt
+```
+### **3. Launch the Streamlit App**
+```bash
+streamlit run app.py
+```
 
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
